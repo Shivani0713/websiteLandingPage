@@ -339,7 +339,26 @@
     margin-left: 240px !important;
 }
 
+.filterDiv {
+    display: none;
+}
+
+.filterDiv.show {
+    display: block;
+}
+.btn.active {
+    background-color: #007aff;
+    color: white;
+}
 @media only screen and (max-width: 320px) {
+    .move{
+        height: 360px;
+    }
+    .serve{
+        align-items: center;
+        display: flex;
+        flex-flow: column;
+    }
     .navbar-toggler {
         margin-left: 0px !important;
     }
@@ -348,7 +367,12 @@
     .hl1 {
         margin-left: 50px;
     }
-
+    .social_media{
+        text-align: center;
+    }
+    .pricing_center{
+        text-align: center;
+    }
     .cbtn {
         margin-left: 20px;
         padding: 5px 15px;
@@ -380,7 +404,7 @@
     }
 
     .Abhr {
-        margin-left: 100px !important;
+        margin-left: 110px !important;
     }
 
     .listbtn {
@@ -396,6 +420,7 @@
 
     .p-3 img {
         width: 280px !important;
+        height: 293px !important;
     }
 
     .navcss {
@@ -450,7 +475,7 @@
     }
 
     .fqdrp {
-        padding-left: 61px;
+        padding-left: 15px;
     }
 
     .fq {
@@ -463,8 +488,187 @@
     }
 
     .map {
-        width: 200px !important;
-        margin-left: 25px !important;
+        /* width: 200px !important;
+        margin-left: 25px !important; */
+        display: flex;
+    }
+    .semsg{
+        margin-left: 46px !important;
+    }
+    .d-inline-block {
+        display: block !important;
+    }
+    .comDetails{
+        padding: 0px !important;
+    }
+    .jns{
+        margin: 15px 0px !important;
+        margin-left: 40px !important;
+    }
+    .jbtn {
+        margin-right: 40px !important;
+        padding: 5px 0px !important;
+        padding-left: 10px !important;
+        padding-right: 50px !important;
+        font-size: 10px;
+        border-radius: 5px !important;
+        width: 0% !important;
+    }
+    .qu{
+        padding: 0px 20px;
+    }
+    .us{
+        margin-left: 0px !important;
+    }
+}
+
+@media only screen and (min-width:350px) and (max-width: 430px) {  
+    .social_media{
+        text-align: center;
+    }
+    .pricing_center{
+        text-align: center;
+    }
+    .move{
+        height: 360px;
+    }
+    .navbar-toggler {
+        margin-left: 0px !important;
+    }
+
+    .d-inline-block {
+        display: block !important;
+    }
+    .comDetails{
+        padding: 0px !important;
+    }
+    .serve{
+        align-items: center;
+        display: flex;
+        flex-flow: column;
+    }
+    .hl,
+    .hl1 {
+        margin-left: 50px;
+    }
+
+    .cbtn {
+        margin-left: 20px;
+        padding: 5px 15px;
+        font-size: 14px;
+    }
+
+    .d-flex {
+       flex-wrap: wrap !important;
+        flex-direction: column !important;
+        font-size: small !important;
+    }
+
+    .ia {
+        font-size: 14px;
+    }
+
+    .flex-row {
+        flex-direction: column !important;
+        padding: 10px 50px !important;
+    }
+
+    .cli img {
+        width: 100px;
+        height: 40px;
+    }
+
+    .move {
+        padding-left: 30px;
+    }
+
+    .Abhr {
+        margin-left: 140px !important;
+    }
+
+    .listbtn {
+        font-size: 10px;
+        margin-top: 20px;
+        padding: 10px 20px;
+        background-color: white;
+    }
+
+    .listbtn span {
+        font-size: 10px;
+    }
+
+    .p-3 img {
+        width: 280px !important;
+    }
+
+    .navcss {
+        margin-left: 90px;
+    }
+
+    .rgt {
+        padding-right: 130px;
+    }
+
+    .rgtc {
+        padding-right: 200px;
+    }
+
+    .rgth {
+        padding-right: 175px;
+    }
+
+    .cta {
+        padding: 5px 40px;
+    }
+
+    .imgcol p {
+        margin-left: 60px !important;
+        padding-top: 40px !important;
+    }
+
+    .ctabtn {
+        margin-left: 60px !important;
+        padding: 10px 41px !important;
+        margin-top: 76px !important;
+    }
+
+    .ctbn {
+        margin: 0px 130px !important;
+    }
+
+    .overlay,
+    .filterDiv img {
+        width: 400px;
+    }
+
+    .Phot_gal {
+        display: flex;
+        gap: 10px;
+        margin-top: 20px;
+        overflow: hidden;
+    }
+
+    .team {
+        padding-left: 25px !important;
+    }
+
+    .fqdrp {
+        padding-left: 35px;
+    }
+
+    .fq {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .tp {
+        font-size: 15px;
+    }
+
+    .map {
+        /* width: 200px !important;
+        margin-left: 25px !important; */
+        display: flex;
     }
     .semsg{
         margin-left: 46px !important;
@@ -490,8 +694,7 @@
         margin-left: 0px !important;
     }
 }
-
-@media only screen and (max-width: 1024px) and (min-width: 400px){
+@media only screen and (max-width: 1024px) and (min-width: 450px){
     .navcss {
         margin-left: 219px;
     }
